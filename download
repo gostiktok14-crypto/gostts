@@ -1,0 +1,5 @@
+.git
+__pycache__
+*.zip
+*.rar
+*.7z

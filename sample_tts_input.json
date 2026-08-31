@@ -1,0 +1,20 @@
+{
+  "input": {
+    "job_id": "manual-test-001",
+    "engine": "jaitts",
+    "target_language": "th",
+    "text": "สวัสดี นี่คือการทดสอบระบบสร้างเสียงบน RunPod",
+    "ref_text": "ใส่ข้อความที่พูดจริงในไฟล์เสียงต้นฉบับตรงนี้",
+    "ref_audio_filename": "reference.wav",
+    "ref_audio_base64": "REPLACE_WITH_BASE64_AUDIO",
+    "output_format": "wav",
+    "sample_rate": 24000,
+    "settings": {
+      "tts_speed": 1.0,
+      "tts_nfe_step": 32,
+      "tts_cfg_strength": 2.0,
+      "target_rms": 0.1,
+      "cross_fade_duration": 0.15
+    }
+  }
+}
